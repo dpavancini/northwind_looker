@@ -1,7 +1,7 @@
 view: fct_order_detail {
   sql_table_name: `dw_northwind.fct_order_detail`
-  label: "Pedidos"
       ;;
+  label: "Pedidos"
 
   dimension: customer_fk {
     label: "Cliente"
