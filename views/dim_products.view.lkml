@@ -1,7 +1,7 @@
 view: dim_products {
   sql_table_name: `dw_northwind.dim_products`
-  view_label: "Produtos"
     ;;
+  label: "Produtos"
 
   dimension: category_id {
     type: number

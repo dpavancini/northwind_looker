@@ -1,7 +1,7 @@
 view: dim_employees {
   sql_table_name: `dw_northwind.dim_employees`
-  view_label: "Funcionários"
     ;;
+  label: "Funcionários"
 
   dimension: address {
     type: string

@@ -1,7 +1,6 @@
 view: dim_suppliers {
-  sql_table_name: `dw_northwind.dim_suppliers`
-  view_label: "Fornecedores"
-    ;;
+  sql_table_name: `dw_northwind.dim_suppliers` ;;
+  label: "Fornecedores"
 
   dimension: address {
     type: string
