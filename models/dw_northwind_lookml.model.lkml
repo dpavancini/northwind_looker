@@ -10,15 +10,6 @@ datagroup: dw_northwind_lookml_default_datagroup {
 
 persist_with: dw_northwind_lookml_default_datagroup
 
-explore: dim_customers {}
-
-explore: dim_employees {}
-
-explore: dim_products {}
-
-explore: dim_shippers {}
-
-explore: dim_suppliers {}
 
 explore: fct_order_detail {
 
@@ -46,4 +37,15 @@ explore: fct_order_detail {
     sql_on: ${fct_order_detail.shipper_fk} = ${dim_shippers.shipper_sk} ;;
   }
 
+
 }
+
+explore: dim_customers {}
+
+explore: dim_employees {}
+
+explore: dim_products {}
+
+explore: dim_shippers {}
+
+explore: dim_suppliers {}
