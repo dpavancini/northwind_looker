@@ -1,5 +1,6 @@
 view: dim_products {
   sql_table_name: `dw_northwind.dim_products`
+  view_label: "Produtos"
     ;;
 
   dimension: category_id {

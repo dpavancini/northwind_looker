@@ -1,5 +1,6 @@
 view: dim_shippers {
   sql_table_name: `dw_northwind.dim_shippers`
+  view_label: "Transportadoras"
     ;;
 
   dimension: company_name {

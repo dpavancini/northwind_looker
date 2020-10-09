@@ -1,5 +1,6 @@
 view: dim_customers {
   sql_table_name: `dw_northwind.dim_customers`
+  view_label: "Clientes"
     ;;
 
   dimension: address {
