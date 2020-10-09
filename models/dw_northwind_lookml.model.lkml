@@ -12,7 +12,7 @@ persist_with: dw_northwind_lookml_default_datagroup
 
 
 explore: fct_order_detail {
-  view_label: "Pedidos"
+  label: "Pedidos"
 
   join: dim_customers {
     view_label: "Clientes"
