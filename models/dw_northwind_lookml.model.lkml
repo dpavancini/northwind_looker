@@ -15,7 +15,7 @@ explore: fct_order_detail {
   label: "Pedidos"
 
   join: dim_customers {
-    view_label: "Clientes"
+    view_label: "Pessoas"
     relationship: many_to_one
     sql_on: ${fct_order_detail.customer_fk} = ${dim_customers.customer_sk} ;;
   }
